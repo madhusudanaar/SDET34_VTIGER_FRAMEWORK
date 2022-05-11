@@ -100,7 +100,7 @@ public void creatCon() throws Throwable
 		cn.CreateCont(data);
 		
 		
-		//step:Verify
+		//step:Verify the contacts
 		ContactsInfo ci = new ContactsInfo(driver);
 		String actualresult = ci.getsuccessfullMsg().getText();
 		System.out.println("actualresult");
