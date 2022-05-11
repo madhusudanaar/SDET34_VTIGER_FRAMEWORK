@@ -102,7 +102,7 @@ public class CreatProductWithMandatoryField {
 		WebElement ele = driver.findElement(By.xpath("//img[@src='themes/softed/images/user.PNG']"));
 		Thread.sleep(2000);*/
 		
-		//step:Verify
+		//step:Verify the products
 		ProductsInfo pi=new ProductsInfo(driver);
 		String actualresult = pi.getsuccessfullMsg().getText();
 		if(actualresult.contains(data))
